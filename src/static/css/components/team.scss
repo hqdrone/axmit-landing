@@ -1,0 +1,18 @@
+.team {
+  padding: 80px 0;
+  background: #fff;
+}
+.team__h2 {
+  margin-bottom: 48px;
+}
+.team__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 48px 0;
+}
+
+@media (max-width: 1023.98px) {
+  .team__cards {
+    grid-template-columns: 1fr;
+  }
+}

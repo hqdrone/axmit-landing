@@ -1,0 +1,19 @@
+.about {
+  background: var(--green);
+  padding: 80px 0;
+  color: #fff;
+}
+.about__body {
+  padding-bottom: 32px;
+}
+.about__h1 {
+  margin-bottom: 32px;
+}
+.about__text {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}

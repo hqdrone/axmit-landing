@@ -1,0 +1,9 @@
+.t {
+  &_with-line-breaks {
+    white-space: pre-line;
+  }
+
+  &_center {
+    text-align: center;
+  }
+}

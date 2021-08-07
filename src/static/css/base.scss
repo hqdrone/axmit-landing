@@ -1,0 +1,42 @@
+:root {
+  --green: #3c6f66;
+  --light-gray: rgba(0,0,0,0.08);
+  --dark: rgba(0,0,0,0.8);
+  --gray: #969696;
+}
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.h1 {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 48px;
+  line-height: 1.2;
+  text-align: center;
+  font-weight: bold;
+}
+.h2 {
+  text-transform: uppercase;
+  font-size: 32px;
+  line-height: 1.2;
+  text-align: center;
+  font-weight: bold;
+  color: var(--dark);
+}
+.container {
+  padding: 0 16px;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.container_full {
+  max-width: 100%;
+}
+
+@media (max-width: 1023.98px) {
+  .h1 {
+    font-size: 40px;
+  }
+  .h2 {
+    font-size: 32px;
+  }
+}

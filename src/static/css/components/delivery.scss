@@ -1,0 +1,19 @@
+.delivery {
+  padding: 80px 0;
+  background: #fff;
+  border-bottom: 1px solid var(--light-gray);
+}
+.delivery__h2 {
+  margin-bottom: 48px;
+}
+.delivery__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 64px 0;
+}
+
+@media (max-width: 1023.98px) {
+  .delivery__cards {
+    grid-template-columns: 1fr;
+  }
+}
